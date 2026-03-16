@@ -1,0 +1,143 @@
+COOM<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Games | Unity Indie Game Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">Shadow Games</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Shadow Games</h1>
+            <p class="hero-subtitle">Crafting Immersive Worlds with Unity</p>
+            <div class="featured-game">
+                <h2>Featured: Drone Simulator</h2>
+                <p>Futuristic drone combat in neon-lit cities.</p>
+                <a href="#games" class="cta-button">Explore Games</a>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games">
+        <h2 class="section-title">Our Games</h2>
+        <div class="games-grid">
+            <div class="game-card">
+                <img src="c:\Users\SIAM\Downloads\ChatGPT_Image_Mar_9_2026_07_06_14_PM.png" alt="Zombie Simulator" loading="lazy">
+                <h3>Zombie Simulator</h3>
+                <p>Survive the zombie apocalypse in a post-apocalyptic world. Built with Unity.</p>
+                <a href="https://shadow-games343.itch.io/zombie-simulator" class="game-button" target="_blank">Download Demo</a>
+            </div>
+            <div class="game-card">
+                <img src="https://img.itch.zone/aW1nLzI0MjA2NTY5LnBuZw==/original/tfKE0r.png" alt="Space Runner" loading="lazy">
+                <h3>taxi-simulator</h3>
+                <p>Endless runner through asteroid fields and alien planets.</p>
+                <a href="https://shadow-games343.itch.io/taxi-simulator" class="game-button" target="_blank">Download Demo</a>
+            </div>
+
+
+
+            <div class="game-card">
+                <img src="c:\Users\SIAM\Pictures\TS\1 (3).jpeg" alt="Pixel Quest" loading="lazy">
+                <h3>train-simulator</h3>
+                <p>Retro pixel-art adventure with modern Unity physics.</p>
+                <a href="https://shadow-games343.itch.io/train-simulator" class="game-button" target="_blank">Download Demo</a>
+            </div>
+            
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Shadow Games</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>We're a passionate indie studio specializing in Unity game development. From high-octane action to atmospheric adventures, we bring unique gaming experiences to life.</p>
+                <p>Years of Unity expertise, pixel-perfect art, and immersive storytelling.</p>
+            </div>
+            <div class="about-image">
+                <img src="c:\r,.e\c.f\ChatGPT Image Nov 15, 2025, 10_05_27 AM.png" alt="Studio">
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">Game Gallery</h2>
+        <div class="gallery-grid">
+            <img src="c:\Users\SIAM\Pictures\dn\ChatGPT Image Mar 16, 2026, 12_19_43 PM.png" alt="Screenshot 1" class="gallery-item" data-full="https://images.unsplash.com/photo-1570549717069-33bed2ebafec?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80">
+            <img src="c:\r,.e\c.f\ChatGPT Image Nov 15, 2025, 10_05_27 AM.png" alt="Screenshot 2" class="gallery-item" data-full="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80">
+           
+        </div>
+        <!-- Gallery Modal -->
+        <div id="gallery-modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-img">
+            <div class="prev" onclick="changeImg(-1)">&#10094;</div>
+            <div class="next" onclick="changeImg(1)">&#10095;</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> siamii7878@gmail.com</p>
+                <div class="social-links">
+                    <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shadow Games. All rights reserved. Made with Unity ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
