@@ -1,5 +1,5 @@
 # robots.txt — Shadow Games
-# GitHub Pages site: https://givingsiam8-max.github.io/shadow-games/
+# GitHub Pages site: https://givingsiam8-max.github.io/-shadow-games/
 
 User-agent: *
 Allow: /
@@ -34,4 +34,4 @@ User-agent: SemrushBot
 Crawl-delay: 10
 
 # Sitemap location
-Sitemap: https://givingsiam8-max.github.io/shadow-games/sitemap.xml
+Sitemap: https://givingsiam8-max.github.io/-shadow-games/sitemap.xml
