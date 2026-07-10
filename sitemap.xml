@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
+
+  <!-- Homepage / Main page -->
+  <url>
+    <loc>https://givingsiam8-max.github.io/shadow-games/</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://givingsiam8-max.github.io/shadow-games/ii1.png</image:loc>
+      <image:title>Shadow Games — Indie Unity Game Developer Portfolio</image:title>
+      <image:caption>Shadow Games studio showcase from the Unity indie game portfolio</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Games section anchor -->
+  <url>
+    <loc>https://givingsiam8-max.github.io/shadow-games/#games</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Dashboard section anchor -->
+  <url>
+    <loc>https://givingsiam8-max.github.io/shadow-games/#dashboard</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About section anchor -->
+  <url>
+    <loc>https://givingsiam8-max.github.io/shadow-games/#about</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gallery section anchor -->
+  <url>
+    <loc>https://givingsiam8-max.github.io/shadow-games/#gallery</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- FAQ section anchor -->
+  <url>
+    <loc>https://givingsiam8-max.github.io/shadow-games/#faq</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact section anchor -->
+  <url>
+    <loc>https://givingsiam8-max.github.io/shadow-games/#contact</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

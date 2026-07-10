@@ -1,0 +1,37 @@
+# robots.txt — Shadow Games
+# GitHub Pages site: https://givingsiam8-max.github.io/shadow-games/
+
+User-agent: *
+Allow: /
+
+# Allow indexing of all content
+Disallow:
+
+# Explicitly allow major search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Block known bad bots from crawling excessively
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://givingsiam8-max.github.io/shadow-games/sitemap.xml
